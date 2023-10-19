@@ -1,0 +1,21 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "hosting": {
+        "rewrites": [ {
+          "source": "**",
+          "function": "app",
+          "region": "europe-west1"
+        } ]
+      },
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ]
+}
